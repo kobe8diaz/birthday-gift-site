@@ -31,7 +31,7 @@ h1, h2, h3, h4, p {
 }
 
 #header {
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
