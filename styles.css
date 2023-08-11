@@ -1,0 +1,135 @@
+body {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(#556b2f, #FFE32E);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 250px;
+    border-radius: 30px;
+    border: 5px solid #704F32;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #704F32;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #704F32;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-happy {
+    width: 540px;
+    height: 245px;
+}
+
+#gift-img-hot {
+    width: 500px;
+    height: 389px;
+}
+
+#gift-img-funny {
+    width: 268px;
+    height: 350px;
+}
+
+#gift-img-chest {
+    width: 268px;
+    height: 350px;
+}
+
+#gift-img-sad {
+    width: 498px;
+    height: 225px;
+}
+
+#gift-img-enjoy {
+    width: 264px;
+    height: 405px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    border: 5px solid #704F32;
+    border-radius: 10px;
+    background-image: url("images/sunflowers.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+}
+
+#gift-img-funny:hover {
+    background-image: url("images/funny.webp");
+}
+
+#gift-img-chest:hover {
+    background-image: url("images/chest.gif");
+}
+
+#gift-img-sad:hover {
+    background-image: url("images/sad.gif");
+}
+
+#gift-img-heart:hover {
+    background-image: url("images/heart.gif");
+}
+
+#gift-img-enjoy:hover {
+    background-image: url("images/enjoy.gif");
+}
+
+#gift-img-iwaizumi:hover {
+    background-image: url("images/iwaizumi.gif");
+}
+
+#footer {
+    font-style: italic;
+    text-align: center;
+    width: 380px;
+    margin: 40px auto 30px auto;
+    background: #556b2f;
+    border-radius: 5px;
+    padding: 8px 8px;
+}
+
+a {
+    color: white;
+}
